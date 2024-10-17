@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "logos"
+version = "0.1.0"
+description = ""
+authors = ["georgesmyr <70004539+georgesmyr@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.3"
+llama-index = "^0.11.18"
+pyyaml = "^6.0.2"
+llama-index-embeddings-openai = "^0.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
